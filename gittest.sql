@@ -266,9 +266,6 @@ CREATE TABLE follow_up
   last_updated_by character varying(30) NOT NULL,
   last_updated_date timestamp without time zone,
   CONSTRAINT follow_up_follow_up_id PRIMARY KEY (follow_up_id)
-)
-WITH (
-  OIDS=FALSE
 );
 
 
