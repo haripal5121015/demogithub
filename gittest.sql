@@ -1,5 +1,6 @@
 
 haripal chuahna
+haripal xyz
 -- Table: "Customer"
 
 -- DROP TABLE "Customer";
