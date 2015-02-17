@@ -1,4 +1,5 @@
 
+haripal chuahna
 -- Table: "Customer"
 
 -- DROP TABLE "Customer";
