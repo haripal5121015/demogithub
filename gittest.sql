@@ -3,32 +3,6 @@
 
 -- DROP TABLE "Customer";
 
-CREATE TABLE customer
-(
-  customer_id bigint NOT NULL,
-  short_name character varying(30) NOT NULL,
-  long_name character varying(60),
-  type character(1),
-  status character(1) NOT NULL DEFAULT 'i'::bpchar,
-  sales_rep bigint,
-  driver character varying(30),
-  primary_contact_no bigint,
-  customer_referral character varying(30),
-  profit_centre character varying(30),
-  credit_limit numeric(10,2),
-  credit_balance numeric(10,2),
-  credit_status character(1),
-  pay_terms character(1),
-  status character(1) NOT NULL DEFAULT 'i'::bpchar,
-  created_by character varying(30) NOT NULL,
-  created_date timestamp without time zone,
-  last_updated_by character varying(30) NOT NULL,
-  last_updated_date timestamp without time zone,
-  CONSTRAINT customer_customer_id PRIMARY KEY (customer_id)
-)
-WITH (
-  OIDS=FALSE
-);
 
 
 
