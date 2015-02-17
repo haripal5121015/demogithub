@@ -160,23 +160,7 @@ WITH (
 
 -- DROP TABLE customer_invoice;
   
-CREATE TABLE customer_invoice
-(
-  customer_invoice_id bigint NOT NULL,
-  invoice_date date,
-  customer_id bigint,
-  billing_period bigint,
-  customer_details character varying(255),
-  company_details character varying(255),
-  contact_person_phone bigint,
-  contact_person_email character varying(60),
-  payment_term character(1),
-  payment_mode character(1),
-  print_flag character(1),
-  print_date date,
-  status character(1) NOT NULL DEFAULT 'i'::bpchar,
-  created_by character varying(30) NOT NULL,
-  created_date timestamp without time zone,
+mp without time zone,
   last_updated_by character varying(30) NOT NULL,
   last_updated_date timestamp without time zone,
   CONSTRAINT customer_invoice_customer_invoice_id PRIMARY KEY (customer_invoice_id),
